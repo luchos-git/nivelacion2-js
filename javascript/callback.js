@@ -10,9 +10,9 @@ function calcular (n1,n2, operacion){
     return operacion(n1, n2);
 } 
 
-const resultado = calcular(10, 20, Sumar)
-console.log(resultado)
+const resultado = calcular(10, 20, Sumar);
+console.log(resultado);
 
 
-const resultResta = calcular(20, 5, restar)
-console.log(resultResta)
+const resultResta = calcular(20, 5, restar);
+console.log(resultResta);
