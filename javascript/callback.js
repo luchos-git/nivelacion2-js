@@ -1,5 +1,5 @@
-const n1=parseInt(prompt("ingrese un numero"));
-const n2=parseInt(prompt("ingrese un numero"));
+const n1=parseFloat(prompt("ingrese un numero"));
+const n2=parseFloat(prompt("ingrese un numero"));
 
 function Sumar(n1,n2){
     return n1+n2;
