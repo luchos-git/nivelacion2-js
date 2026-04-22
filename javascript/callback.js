@@ -1,3 +1,4 @@
+const operacion=window[prompt('Sumar o restar')];
 const n1=parseFloat(prompt("ingrese un numero"));
 const n2=parseFloat(prompt("ingrese un numero"));
 
@@ -13,9 +14,9 @@ function calcular (n1,n2, operacion){
     return operacion(n1, n2);
 } 
 
-const resultado = calcular(n1, n2, Sumar);
+const resultado = calcular(n1, n2, operacion);
 console.log(resultado);
 
 
-const resultResta = calcular(n1, n2, restar);
-console.log(resultResta);
+// const resultResta = calcular(n1, n2, operacion);
+// console.log(resultResta);
