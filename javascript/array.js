@@ -23,3 +23,11 @@ const cantidad = colores.length;
 console.log(`Cantidad: ${cantidad}`);
 colores.push(`brown`);
 colores.forEach(c=>console.log(c));
+console.log(colores);
+const encontrado = colores.find(c=>c==`green`);
+if(encontrado){
+    console.log(`${encontrado} existe`);
+} else{
+    console.log(`El elemento no existe`);
+}
+// console.log(`Elemento encontrado ${encontrado}`);
