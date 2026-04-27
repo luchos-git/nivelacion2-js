@@ -10,4 +10,11 @@ console.log(document.querySelectorAll(`.texto`));
 
 const parrafos= document.querySelectorAll(`.texto`);
 
-parrafos.forEach(p=>p.innerHTML='nuevo texto')
+// parrafos.forEach(p=>p.innerHTML='nuevo texto');
+let contador = 0;
+const colores = [`blue`, `grey`, `red`, `pink`, `green`];
+parrafos.forEach(p=>{
+    p.style.color=colores[contador];
+    contador++;
+    p.innerHTML=`texto ${contador}`;
+});
