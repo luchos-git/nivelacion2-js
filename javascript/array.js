@@ -42,3 +42,6 @@ else{
 
 colores[nroIndice] = `violet`;
 console.log(colores);
+
+colores.splice(nroIndice, 1); //1 = cantidad de elementos a eliminar a partir de esa posicion
+console.log(colores);
