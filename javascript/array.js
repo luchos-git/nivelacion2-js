@@ -18,3 +18,8 @@ parrafos.forEach(p=>{
     contador++;
     p.innerHTML=`texto ${contador}`;
 });
+
+const cantidad = colores.length;
+console.log(`Cantidad: ${cantidad}`);
+colores.push(`brown`);
+colores.forEach(c=>console.log(c));
