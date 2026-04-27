@@ -31,3 +31,14 @@ if(encontrado){
     console.log(`El elemento no existe`);
 }
 // console.log(`Elemento encontrado ${encontrado}`);
+
+const nroIndice=colores.findIndex(c => c==`green`);
+if(nroIndice>=0){
+console.log(`Indice ${nroIndice}`);
+}
+else{
+    console.log(`El indice no existe`);
+}
+
+colores[nroIndice] = `violet`;
+console.log(colores);
