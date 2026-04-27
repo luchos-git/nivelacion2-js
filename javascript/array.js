@@ -1,4 +1,4 @@
-// let Semana =[`Lunes`, `Martes`, `Miercoles`, `Jueves`];
+let Semana =[`Lunes`, `Martes`, `Miercoles`, `Jueves`];
 
 // // callback:
 // console.log(Semana[0]);
@@ -7,3 +7,7 @@
 // document.querySelectorAll(`.texto`).innerHTML="nuevo Texto";
 
 console.log(document.querySelectorAll(`.texto`));
+
+const parrafos= document.querySelectorAll(`.texto`);
+
+parrafos.forEach(p=>p.innerHTML='nuevo texto')
