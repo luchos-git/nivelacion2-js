@@ -1,10 +1,10 @@
 let contador = 0;
 
-const productos = [`Rasta`, `Obleas`, `gula`];
+let productos = [`Rasta`, `Obleas`, `gula`];
 
 const parrafos= document.querySelectorAll(`.texto`);
 
 parrafos.forEach(p=>{
+    p.innerHTML=`${contador+1}: ${productos[contador]}`;
     contador++;
-    p.innerHTML=`${contador + productos}`;
 });
